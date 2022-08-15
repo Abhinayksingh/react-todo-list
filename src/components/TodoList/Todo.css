@@ -1,0 +1,27 @@
+.todo-list__container {
+  padding-top: 1.5rem;
+}
+.list {
+  background-color: #df7861;
+  width: 100%;
+  max-width: 80vh;
+  height: 2rem;
+  border: 2px solid white;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+.todo-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+  margin-top: 2px;
+}
+.task-button {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 30px;
+}
