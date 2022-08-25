@@ -1,6 +1,7 @@
 h1 {
   font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
   font-family: sans-serif;
-  margin-top: -3rem;
   color: #a10035;
 }

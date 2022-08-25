@@ -3,17 +3,19 @@
 }
 .list {
   background-color: #df7861;
-  width: 100%;
-  max-width: 80vh;
-  height: 2rem;
-  border: 2px solid white;
-  border-radius: 2rem;
-  overflow: hidden;
 }
 .todo-list {
+  /* This bit sets up the horizontal layout */
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: row;
+
+  /* This bit draws the box around it */
+  border: 1px solid grey;
+
+  /* I've used padding so you can see the edges of the elements. */
+  padding: 4px;
+  background-color: #df7861;
+  border-radius: 10px;
 }
 li {
   text-decoration: none;
@@ -24,4 +26,12 @@ li {
   border: 1px solid black;
   border-radius: 5px;
   height: 30px;
+  background-color: beige;
+}
+
+input {
+  /* Tell the input to use all the available space */
+  flex-grow: 2;
+  /* And hide the input's outline, so the form looks like the outline */
+  border: none;
 }
